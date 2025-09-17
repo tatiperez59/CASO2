@@ -44,7 +44,7 @@ public class Opcion0 {
 
         // BUCLE PRINCIPAL PARA GENERAR UN ARCHIVO POR CADA TAMAÑO DE MATRIZ
         for (int i = 0; i < nproc && i < tamanos.size(); i++) {
-            String nombreArchivo = "proces" + i + ".txt";
+            String nombreArchivo = "proc" + i + ".txt";
             try (FileWriter writer = new FileWriter(nombreArchivo)) {
 
                 // --- Preparación de variables para esta simulación ---
@@ -101,7 +101,7 @@ public class Opcion0 {
     public static void main(String[] args) {
         Opcion0 opcion0 = new Opcion0();
         // IMPORTANTE: Asegúrate de que esta ruta sea la correcta en tu computador
-        String ruta = "caso2//arc.txt";
+        String ruta = "/workspaces/CASO2/arc1.txt";
         opcion0.opcion0(ruta);
     }
 }
