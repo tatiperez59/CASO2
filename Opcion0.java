@@ -47,7 +47,7 @@ public class Opcion0 {
             String nombreArchivo = "proc" + i + ".txt";
             try (FileWriter writer = new FileWriter(nombreArchivo)) {
 
-                // --- Preparación de variables para esta simulación ---
+                //Preparación de variables
                 int nf = (int) Math.sqrt(tamanos.get(i));
                 int nc = nf;
                 int totalElementosMatriz = nf * nc;
@@ -72,7 +72,7 @@ public class Opcion0 {
                 for (int elemento = 0; elemento < totalElementosMatriz; elemento++) {
                     for (int matriz = 0; matriz < 3; matriz++) {
                         
-                        // --- LÓGICA DE PAGINACIÓN ABSOLUTA ---
+                        //LÓGICA DE PAGINACIÓN 
                         int desplazamientoAbsoluto = desplazamientos[matriz];
                         int paginaActual = desplazamientoAbsoluto / tp;
                         int desplazamientoEnPagina = desplazamientoAbsoluto % tp;
@@ -83,7 +83,7 @@ public class Opcion0 {
                         desplazamientos[matriz] += 4;
                     }
 
-                    // Actualizamos las coordenadas [fila-columna] para el siguiente ciclo
+                    // Actualizar las coordenadas [fila-columna] para el siguiente ciclo
                     countsCOL++;
                     if (countsCOL == nf) {
                         countsCOL = 0;
@@ -100,7 +100,6 @@ public class Opcion0 {
 
     public static void main(String[] args) {
         Opcion0 opcion0 = new Opcion0();
-        // IMPORTANTE: Asegúrate de que esta ruta sea la correcta en tu computador
         String ruta = "/workspaces/CASO2/arc1.txt";
         opcion0.opcion0(ruta);
     }
