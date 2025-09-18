@@ -1,7 +1,4 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 
 public class Opcion0 {
@@ -100,7 +97,7 @@ public class Opcion0 {
 
     public static void main(String[] args) {
         Opcion0 opcion0 = new Opcion0();
-        String ruta = "/workspaces/CASO2/arc1.txt";
+        String ruta = "arc1.txt";
         opcion0.opcion0(ruta);
     }
 }

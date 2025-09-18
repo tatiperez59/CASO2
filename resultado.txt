@@ -1,0 +1,1797 @@
+Cargado: proc0.txt con 108 direcciones.
+Cargado: proc1.txt con 243 direcciones.
+
+Turno proc: 0
+PROC 0 analizando linea_: 0 → M1: [0-0],0,0,r
+PROC 0 envejecimiento aplicado
+PROC 0 FALLA de página 0
+PROC 0 cargó página 0 en marco libre
+
+Turno proc: 1
+PROC 1 analizando linea_: 0 → M1: [0-0],0,0,r
+PROC 1 envejecimiento aplicado
+PROC 1 FALLA de página 0
+PROC 1 cargó página 0 en marco libre
+
+Turno proc: 0
+PROC 0 analizando linea_: 1 → M2: [0-0],1,16,r
+PROC 0 envejecimiento aplicado
+PROC 0 FALLA de página 1
+PROC 0 cargó página 1 en marco libre
+
+Turno proc: 1
+PROC 1 analizando linea_: 1 → M2: [0-0],2,68,r
+PROC 1 envejecimiento aplicado
+PROC 1 FALLA de página 2
+PROC 1 cargó página 2 en marco libre
+
+Turno proc: 0
+PROC 0 analizando linea_: 2 → M3: [0-0],2,32,w
+PROC 0 envejecimiento aplicado
+PROC 0 FALLA de página 2
+PROC 0 cargó página 2 en marco libre
+
+Turno proc: 1
+PROC 1 analizando linea_: 2 → M3: [0-0],5,8,w
+PROC 1 envejecimiento aplicado
+PROC 1 FALLA de página 5
+PROC 1 cargó página 5 en marco libre
+
+Turno proc: 0
+PROC 0 analizando linea_: 3 → M1: [0-1],0,4,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 3 → M1: [0-1],0,4,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 4 → M2: [0-1],1,20,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 4 → M2: [0-1],2,72,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 0
+PROC 0 analizando linea_: 5 → M3: [0-1],2,36,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 5 → M3: [0-1],5,12,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 6 → M1: [0-2],0,8,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 6 → M1: [0-2],0,8,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 7 → M2: [0-2],1,24,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 7 → M2: [0-2],2,76,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 0
+PROC 0 analizando linea_: 8 → M3: [0-2],2,40,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 8 → M3: [0-2],5,16,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 9 → M1: [0-3],0,12,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 9 → M1: [0-3],0,12,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 10 → M2: [0-3],1,28,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 10 → M2: [0-3],2,80,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 0
+PROC 0 analizando linea_: 11 → M3: [0-3],2,44,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 11 → M3: [0-3],5,20,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 12 → M1: [0-4],0,16,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 12 → M1: [0-4],0,16,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 13 → M2: [0-4],1,32,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 13 → M2: [0-4],2,84,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 0
+PROC 0 analizando linea_: 14 → M3: [0-4],2,48,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 14 → M3: [0-4],5,24,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 15 → M1: [0-5],0,20,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 15 → M1: [0-5],0,20,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 16 → M2: [0-5],1,36,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 16 → M2: [0-5],2,88,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 0
+PROC 0 analizando linea_: 17 → M3: [0-5],2,52,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 17 → M3: [0-5],5,28,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 18 → M1: [1-0],0,24,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 18 → M1: [0-6],0,24,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 19 → M2: [1-0],1,40,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 19 → M2: [0-6],2,92,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 0
+PROC 0 analizando linea_: 20 → M3: [1-0],2,56,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 20 → M3: [0-6],5,32,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 21 → M1: [1-1],0,28,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 21 → M1: [0-7],0,28,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 22 → M2: [1-1],1,44,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 22 → M2: [0-7],2,96,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 0
+PROC 0 analizando linea_: 23 → M3: [1-1],2,60,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 23 → M3: [0-7],5,36,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 24 → M1: [1-2],0,32,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 24 → M1: [0-8],0,32,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 25 → M2: [1-2],1,48,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 25 → M2: [0-8],2,100,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 0
+PROC 0 analizando linea_: 26 → M3: [1-2],2,64,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 26 → M3: [0-8],5,40,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 27 → M1: [1-3],0,36,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 27 → M1: [1-0],0,36,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 28 → M2: [1-3],1,52,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 28 → M2: [1-0],2,104,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 0
+PROC 0 analizando linea_: 29 → M3: [1-3],2,68,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 29 → M3: [1-0],5,44,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 30 → M1: [1-4],0,40,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 30 → M1: [1-1],0,40,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 31 → M2: [1-4],1,56,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 31 → M2: [1-1],2,108,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 0
+PROC 0 analizando linea_: 32 → M3: [1-4],2,72,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 32 → M3: [1-1],5,48,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 33 → M1: [1-5],0,44,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 33 → M1: [1-2],0,44,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 34 → M2: [1-5],1,60,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 34 → M2: [1-2],2,112,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 0
+PROC 0 analizando linea_: 35 → M3: [1-5],2,76,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 35 → M3: [1-2],5,52,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 36 → M1: [2-0],0,48,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 36 → M1: [1-3],0,48,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 37 → M2: [2-0],1,64,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 37 → M2: [1-3],2,116,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 0
+PROC 0 analizando linea_: 38 → M3: [2-0],2,80,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 38 → M3: [1-3],5,56,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 39 → M1: [2-1],0,52,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 39 → M1: [1-4],0,52,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 40 → M2: [2-1],1,68,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 40 → M2: [1-4],2,120,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 0
+PROC 0 analizando linea_: 41 → M3: [2-1],2,84,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 41 → M3: [1-4],5,60,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 42 → M1: [2-2],0,56,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 42 → M1: [1-5],0,56,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 43 → M2: [2-2],1,72,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 43 → M2: [1-5],2,124,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 0
+PROC 0 analizando linea_: 44 → M3: [2-2],2,88,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 44 → M3: [1-5],5,64,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 45 → M1: [2-3],0,60,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 45 → M1: [1-6],0,60,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 46 → M2: [2-3],1,76,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 46 → M2: [1-6],3,0,r
+PROC 1 envejecimiento aplicado
+PROC 1 FALLA de página 3
+PROC 1 cargó página 3 en marco libre
+
+Turno proc: 0
+PROC 0 analizando linea_: 47 → M3: [2-3],2,92,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 47 → M3: [1-6],5,68,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 48 → M1: [2-4],0,64,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 48 → M1: [1-7],0,64,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 49 → M2: [2-4],1,80,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 49 → M2: [1-7],3,4,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 50 → M3: [2-4],2,96,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 50 → M3: [1-7],5,72,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 51 → M1: [2-5],0,68,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 51 → M1: [1-8],0,68,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 52 → M2: [2-5],1,84,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 52 → M2: [1-8],3,8,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 53 → M3: [2-5],2,100,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 53 → M3: [1-8],5,76,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 54 → M1: [3-0],0,72,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 54 → M1: [2-0],0,72,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 55 → M2: [3-0],1,88,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 55 → M2: [2-0],3,12,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 56 → M3: [3-0],2,104,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 56 → M3: [2-0],5,80,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 57 → M1: [3-1],0,76,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 57 → M1: [2-1],0,76,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 58 → M2: [3-1],1,92,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 58 → M2: [2-1],3,16,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 59 → M3: [3-1],2,108,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 59 → M3: [2-1],5,84,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 60 → M1: [3-2],0,80,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 60 → M1: [2-2],0,80,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 61 → M2: [3-2],1,96,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 61 → M2: [2-2],3,20,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 62 → M3: [3-2],2,112,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 62 → M3: [2-2],5,88,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 63 → M1: [3-3],0,84,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 63 → M1: [2-3],0,84,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 64 → M2: [3-3],1,100,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 64 → M2: [2-3],3,24,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 65 → M3: [3-3],2,116,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 65 → M3: [2-3],5,92,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 66 → M1: [3-4],0,88,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 66 → M1: [2-4],0,88,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 67 → M2: [3-4],1,104,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 67 → M2: [2-4],3,28,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 68 → M3: [3-4],2,120,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 68 → M3: [2-4],5,96,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 69 → M1: [3-5],0,92,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 69 → M1: [2-5],0,92,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 70 → M2: [3-5],1,108,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 70 → M2: [2-5],3,32,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 71 → M3: [3-5],2,124,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 71 → M3: [2-5],5,100,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 72 → M1: [4-0],0,96,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 72 → M1: [2-6],0,96,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 73 → M2: [4-0],1,112,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 73 → M2: [2-6],3,36,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 74 → M3: [4-0],3,0,w
+PROC 0 envejecimiento aplicado
+PROC 0 FALLA de página 3
+PROC 0 cargó página 3 en marco libre
+
+Turno proc: 1
+PROC 1 analizando linea_: 74 → M3: [2-6],5,104,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 75 → M1: [4-1],0,100,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 75 → M1: [2-7],0,100,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 76 → M2: [4-1],1,116,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 76 → M2: [2-7],3,40,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 77 → M3: [4-1],3,4,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 77 → M3: [2-7],5,108,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 78 → M1: [4-2],0,104,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 78 → M1: [2-8],0,104,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 79 → M2: [4-2],1,120,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 79 → M2: [2-8],3,44,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 80 → M3: [4-2],3,8,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 80 → M3: [2-8],5,112,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 81 → M1: [4-3],0,108,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 81 → M1: [3-0],0,108,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 82 → M2: [4-3],1,124,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 82 → M2: [3-0],3,48,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 83 → M3: [4-3],3,12,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 83 → M3: [3-0],5,116,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 84 → M1: [4-4],0,112,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 84 → M1: [3-1],0,112,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 85 → M2: [4-4],2,0,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 85 → M2: [3-1],3,52,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 86 → M3: [4-4],3,16,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 86 → M3: [3-1],5,120,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 87 → M1: [4-5],0,116,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 87 → M1: [3-2],0,116,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 88 → M2: [4-5],2,4,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 88 → M2: [3-2],3,56,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 89 → M3: [4-5],3,20,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 89 → M3: [3-2],5,124,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 0
+PROC 0 analizando linea_: 90 → M1: [5-0],0,120,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 90 → M1: [3-3],0,120,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 91 → M2: [5-0],2,8,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 91 → M2: [3-3],3,60,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 92 → M3: [5-0],3,24,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 92 → M3: [3-3],6,0,w
+PROC 1 envejecimiento aplicado
+PROC 1 FALLA de página 6
+PROC 1 reemplazó página 3 por 6
+
+Turno proc: 0
+PROC 0 analizando linea_: 93 → M1: [5-1],0,124,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 0
+
+Turno proc: 1
+PROC 1 analizando linea_: 93 → M1: [3-4],0,124,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 0
+
+Turno proc: 0
+PROC 0 analizando linea_: 94 → M2: [5-1],2,12,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 94 → M2: [3-4],3,64,r
+PROC 1 envejecimiento aplicado
+PROC 1 FALLA de página 3
+PROC 1 reemplazó página 0 por 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 95 → M3: [5-1],3,28,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 95 → M3: [3-4],6,4,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 0
+PROC 0 analizando linea_: 96 → M1: [5-2],1,0,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 96 → M1: [3-5],1,0,r
+PROC 1 envejecimiento aplicado
+PROC 1 FALLA de página 1
+PROC 1 reemplazó página 6 por 1
+
+Turno proc: 0
+PROC 0 analizando linea_: 97 → M2: [5-2],2,16,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 97 → M2: [3-5],3,68,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 98 → M3: [5-2],3,32,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 98 → M3: [3-5],6,8,w
+PROC 1 envejecimiento aplicado
+PROC 1 FALLA de página 6
+PROC 1 reemplazó página 3 por 6
+
+Turno proc: 0
+PROC 0 analizando linea_: 99 → M1: [5-3],1,4,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 99 → M1: [3-6],1,4,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 0
+PROC 0 analizando linea_: 100 → M2: [5-3],2,20,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 100 → M2: [3-6],3,72,r
+PROC 1 envejecimiento aplicado
+PROC 1 FALLA de página 3
+PROC 1 reemplazó página 1 por 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 101 → M3: [5-3],3,36,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 101 → M3: [3-6],6,12,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 0
+PROC 0 analizando linea_: 102 → M1: [5-4],1,8,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 102 → M1: [3-7],1,8,r
+PROC 1 envejecimiento aplicado
+PROC 1 FALLA de página 1
+PROC 1 reemplazó página 6 por 1
+
+Turno proc: 0
+PROC 0 analizando linea_: 103 → M2: [5-4],2,24,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 103 → M2: [3-7],3,76,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 104 → M3: [5-4],3,40,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 104 → M3: [3-7],6,16,w
+PROC 1 envejecimiento aplicado
+PROC 1 FALLA de página 6
+PROC 1 reemplazó página 3 por 6
+
+Turno proc: 0
+PROC 0 analizando linea_: 105 → M1: [5-5],1,12,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 105 → M1: [3-8],1,12,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 0
+PROC 0 analizando linea_: 106 → M2: [5-5],2,28,r
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 106 → M2: [3-8],3,80,r
+PROC 1 envejecimiento aplicado
+PROC 1 FALLA de página 3
+PROC 1 reemplazó página 1 por 3
+
+Turno proc: 0
+PROC 0 analizando linea_: 107 → M3: [5-5],3,44,w
+PROC 0 envejecimiento aplicado
+PROC 0 HIT en página 3
+Proceso 0 ha terminado.
+Reasignando 4 marcos del proceso 0 al proceso 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 107 → M3: [3-8],6,20,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 108 → M1: [4-0],1,16,r
+PROC 1 envejecimiento aplicado
+PROC 1 FALLA de página 1
+PROC 1 cargó página 1 en marco libre
+
+Turno proc: 1
+PROC 1 analizando linea_: 109 → M2: [4-0],3,84,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 110 → M3: [4-0],6,24,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 111 → M1: [4-1],1,20,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 112 → M2: [4-1],3,88,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 113 → M3: [4-1],6,28,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 114 → M1: [4-2],1,24,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 115 → M2: [4-2],3,92,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 116 → M3: [4-2],6,32,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 117 → M1: [4-3],1,28,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 118 → M2: [4-3],3,96,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 119 → M3: [4-3],6,36,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 120 → M1: [4-4],1,32,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 121 → M2: [4-4],3,100,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 122 → M3: [4-4],6,40,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 123 → M1: [4-5],1,36,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 124 → M2: [4-5],3,104,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 125 → M3: [4-5],6,44,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 126 → M1: [4-6],1,40,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 127 → M2: [4-6],3,108,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 128 → M3: [4-6],6,48,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 129 → M1: [4-7],1,44,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 130 → M2: [4-7],3,112,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 131 → M3: [4-7],6,52,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 132 → M1: [4-8],1,48,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 133 → M2: [4-8],3,116,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 134 → M3: [4-8],6,56,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 135 → M1: [5-0],1,52,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 136 → M2: [5-0],3,120,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 137 → M3: [5-0],6,60,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 138 → M1: [5-1],1,56,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 139 → M2: [5-1],3,124,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 3
+
+Turno proc: 1
+PROC 1 analizando linea_: 140 → M3: [5-1],6,64,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 141 → M1: [5-2],1,60,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 142 → M2: [5-2],4,0,r
+PROC 1 envejecimiento aplicado
+PROC 1 FALLA de página 4
+PROC 1 cargó página 4 en marco libre
+
+Turno proc: 1
+PROC 1 analizando linea_: 143 → M3: [5-2],6,68,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 144 → M1: [5-3],1,64,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 145 → M2: [5-3],4,4,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 146 → M3: [5-3],6,72,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 147 → M1: [5-4],1,68,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 148 → M2: [5-4],4,8,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 149 → M3: [5-4],6,76,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 150 → M1: [5-5],1,72,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 151 → M2: [5-5],4,12,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 152 → M3: [5-5],6,80,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 153 → M1: [5-6],1,76,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 154 → M2: [5-6],4,16,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 155 → M3: [5-6],6,84,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 156 → M1: [5-7],1,80,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 157 → M2: [5-7],4,20,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 158 → M3: [5-7],6,88,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 159 → M1: [5-8],1,84,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 160 → M2: [5-8],4,24,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 161 → M3: [5-8],6,92,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 162 → M1: [6-0],1,88,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 163 → M2: [6-0],4,28,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 164 → M3: [6-0],6,96,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 165 → M1: [6-1],1,92,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 166 → M2: [6-1],4,32,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 167 → M3: [6-1],6,100,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 168 → M1: [6-2],1,96,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 169 → M2: [6-2],4,36,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 170 → M3: [6-2],6,104,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 171 → M1: [6-3],1,100,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 172 → M2: [6-3],4,40,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 173 → M3: [6-3],6,108,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 174 → M1: [6-4],1,104,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 175 → M2: [6-4],4,44,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 176 → M3: [6-4],6,112,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 177 → M1: [6-5],1,108,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 178 → M2: [6-5],4,48,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 179 → M3: [6-5],6,116,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 180 → M1: [6-6],1,112,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 181 → M2: [6-6],4,52,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 182 → M3: [6-6],6,120,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 183 → M1: [6-7],1,116,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 184 → M2: [6-7],4,56,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 185 → M3: [6-7],6,124,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 6
+
+Turno proc: 1
+PROC 1 analizando linea_: 186 → M1: [6-8],1,120,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 187 → M2: [6-8],4,60,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 188 → M3: [6-8],7,0,w
+PROC 1 envejecimiento aplicado
+PROC 1 FALLA de página 7
+PROC 1 cargó página 7 en marco libre
+
+Turno proc: 1
+PROC 1 analizando linea_: 189 → M1: [7-0],1,124,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 1
+
+Turno proc: 1
+PROC 1 analizando linea_: 190 → M2: [7-0],4,64,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 191 → M3: [7-0],7,4,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 7
+
+Turno proc: 1
+PROC 1 analizando linea_: 192 → M1: [7-1],2,0,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 193 → M2: [7-1],4,68,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 194 → M3: [7-1],7,8,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 7
+
+Turno proc: 1
+PROC 1 analizando linea_: 195 → M1: [7-2],2,4,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 196 → M2: [7-2],4,72,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 197 → M3: [7-2],7,12,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 7
+
+Turno proc: 1
+PROC 1 analizando linea_: 198 → M1: [7-3],2,8,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 199 → M2: [7-3],4,76,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 200 → M3: [7-3],7,16,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 7
+
+Turno proc: 1
+PROC 1 analizando linea_: 201 → M1: [7-4],2,12,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 202 → M2: [7-4],4,80,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 203 → M3: [7-4],7,20,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 7
+
+Turno proc: 1
+PROC 1 analizando linea_: 204 → M1: [7-5],2,16,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 205 → M2: [7-5],4,84,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 206 → M3: [7-5],7,24,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 7
+
+Turno proc: 1
+PROC 1 analizando linea_: 207 → M1: [7-6],2,20,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 208 → M2: [7-6],4,88,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 209 → M3: [7-6],7,28,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 7
+
+Turno proc: 1
+PROC 1 analizando linea_: 210 → M1: [7-7],2,24,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 211 → M2: [7-7],4,92,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 212 → M3: [7-7],7,32,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 7
+
+Turno proc: 1
+PROC 1 analizando linea_: 213 → M1: [7-8],2,28,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 214 → M2: [7-8],4,96,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 215 → M3: [7-8],7,36,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 7
+
+Turno proc: 1
+PROC 1 analizando linea_: 216 → M1: [8-0],2,32,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 217 → M2: [8-0],4,100,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 218 → M3: [8-0],7,40,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 7
+
+Turno proc: 1
+PROC 1 analizando linea_: 219 → M1: [8-1],2,36,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 220 → M2: [8-1],4,104,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 221 → M3: [8-1],7,44,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 7
+
+Turno proc: 1
+PROC 1 analizando linea_: 222 → M1: [8-2],2,40,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 223 → M2: [8-2],4,108,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 224 → M3: [8-2],7,48,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 7
+
+Turno proc: 1
+PROC 1 analizando linea_: 225 → M1: [8-3],2,44,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 226 → M2: [8-3],4,112,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 227 → M3: [8-3],7,52,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 7
+
+Turno proc: 1
+PROC 1 analizando linea_: 228 → M1: [8-4],2,48,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 229 → M2: [8-4],4,116,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 230 → M3: [8-4],7,56,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 7
+
+Turno proc: 1
+PROC 1 analizando linea_: 231 → M1: [8-5],2,52,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 232 → M2: [8-5],4,120,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 233 → M3: [8-5],7,60,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 7
+
+Turno proc: 1
+PROC 1 analizando linea_: 234 → M1: [8-6],2,56,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 235 → M2: [8-6],4,124,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 4
+
+Turno proc: 1
+PROC 1 analizando linea_: 236 → M3: [8-6],7,64,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 7
+
+Turno proc: 1
+PROC 1 analizando linea_: 237 → M1: [8-7],2,60,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 238 → M2: [8-7],5,0,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 1
+PROC 1 analizando linea_: 239 → M3: [8-7],7,68,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 7
+
+Turno proc: 1
+PROC 1 analizando linea_: 240 → M1: [8-8],2,64,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 2
+
+Turno proc: 1
+PROC 1 analizando linea_: 241 → M2: [8-8],5,4,r
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 5
+
+Turno proc: 1
+PROC 1 analizando linea_: 242 → M3: [8-8],7,72,w
+PROC 1 envejecimiento aplicado
+PROC 1 HIT en página 7
+Proceso 1 ha terminado.
+
+=== Simulación finalizada ===
+
+Proceso: 0
+- Num referencias: 108
+- Fallas: 4
+- Hits: 104
+- SWAP: 4
+- Tasa fallas: 0,0370
+- Tasa éxito: 0,9630
+
+Proceso: 1
+- Num referencias: 243
+- Fallas: 15
+- Hits: 228
+- SWAP: 15
+- Tasa fallas: 0,0617
+- Tasa éxito: 0,9383
