@@ -20,7 +20,7 @@ public class Opcion1 {
     private ArrayList<ArrayList<Integer>> contadores;
     private ArrayList<ArrayList<Boolean>> bitsR;
 
-    // Para guardar la salida 
+    // Para guardar la salida
     private StringBuilder logSimulacion;
 
     public Opcion1(int numProcesos, int marcosTotales) {
@@ -52,10 +52,12 @@ public class Opcion1 {
             String nombreArchivo = "proc" + i + ".txt";
             try (BufferedReader br = new BufferedReader(new FileReader(nombreArchivo))) {
                 String linea;
+                // Ignorar las primeras 5 líneas del encabezado
+                for (int j = 0; j < 5; j++) {
+                    br.readLine();
+                }
                 while ((linea = br.readLine()) != null) {
-                    if (linea.startsWith("M")) {
-                        refs.add(linea);
-                    }
+                    refs.add(linea);
                 }
                 direcciones.add(refs);
                 marcosAsignados[i] = marcosPorProceso;
@@ -88,7 +90,7 @@ public class Opcion1 {
         for (int j = 0; j < paginas.get(pid).size(); j++) {
             int cont = contadores.get(pid).get(j);
             boolean r = bitsR.get(pid).get(j);
-            cont = (cont >> 1) | (r == true ? 128 : 0);
+            cont = (cont >> 1) | (r ? 128 : 0);
             contadores.get(pid).set(j, cont);
             bitsR.get(pid).set(j, false);
         }
@@ -119,10 +121,10 @@ public class Opcion1 {
             log("\nTurno proc: " + pid);
 
             String dv = direcciones.get(pid).get(dvActual[pid]);
-            log("PROC " + pid + " analizando linea_: " + dvActual[pid] + " → " + dv);
+            log("PROC " + pid + " analizando linea_: " + dvActual[pid] + " -> " + dv);
 
             String[] partes = dv.split(",");
-            int pagina = Integer.parseInt(partes[1]);
+            int pagina = Integer.parseInt(partes[1].trim());
 
             actualizarContadores(pid);
             log("PROC " + pid + " envejecimiento aplicado");
@@ -132,28 +134,29 @@ public class Opcion1 {
                 // Hit
                 bitsR.get(pid).set(idx, true);
                 aciertos[pid]++;
-                log("PROC " + pid + " HIT en página " + pagina);
+                log("PROC " + pid + " HIT en pagina " + pagina);
                 dvActual[pid]++;
             } else {
                 // Fallo
                 fallosPagina[pid]++;
-                log("PROC " + pid + " FALLA de página " + pagina);
+                log("PROC " + pid + " FALLA de pagina " + pagina);
                 if (paginas.get(pid).size() < marcosAsignados[pid]) {
+                    // Fallo sin reemplazo
                     paginas.get(pid).add(pagina);
                     contadores.get(pid).add(0);
                     bitsR.get(pid).add(true);
                     swapSinReemplazo[pid]++;
-                    log("PROC " + pid + " cargó página " + pagina + " en marco libre");
+                    log("PROC " + pid + " cargó pagina " + pagina + " en marco libre");
                     dvActual[pid]++;
                 } else {
+                    // Fallo con reemplazo
                     int victima = paginaReemplazar(pid);
                     int victimaPag = paginas.get(pid).get(victima);
                     paginas.get(pid).set(victima, pagina);
                     contadores.get(pid).set(victima, 0);
                     bitsR.get(pid).set(victima, true);
                     swapConReemplazo[pid]++;
-                    log("PROC " + pid + " reemplazó página " + victimaPag + " por " + pagina);
-                    dvActual[pid]++;
+                    log("PROC " + pid + " reemplazó pagina " + victimaPag + " por " + pagina);
                 }
             }
 
@@ -179,10 +182,10 @@ public class Opcion1 {
             }
         }
 
-        log("\n=== Simulación finalizada ===");
+        log("\n=== Simulacion finalizada ===");
         for (int i = 0; i < numProcesos; i++) {
-            int totalRefs = direcciones.get(i).size();
-            int swaps = swapSinReemplazo[i] + swapConReemplazo[i];
+            int totalRefs = (direcciones.get(i).size() > 0) ? direcciones.get(i).size() : 0;
+            int totalSwaps = swapSinReemplazo[i] + (swapConReemplazo[i] * 2);
             double tasaFallas = (totalRefs == 0) ? 0 : (double) fallosPagina[i] / totalRefs;
             double tasaExito = (totalRefs == 0) ? 0 : (double) aciertos[i] / totalRefs;
 
@@ -190,12 +193,12 @@ public class Opcion1 {
             log("- Num referencias: " + totalRefs);
             log("- Fallas: " + fallosPagina[i]);
             log("- Hits: " + aciertos[i]);
-            log("- SWAP: " + swaps);
+            log("- SWAP: " + totalSwaps);
             log(String.format("- Tasa fallas: %.4f", tasaFallas));
-            log(String.format("- Tasa éxito: %.4f", tasaExito));
+            log(String.format("- Tasa exito: %.4f", tasaExito));
         }
 
-        // Guardar salida 
+        // Guardar salida
         try (FileWriter writer = new FileWriter("resultado.txt")) {
             writer.write(logSimulacion.toString());
             System.out.println("\n=== Resultados guardados en resultado.txt ===");
