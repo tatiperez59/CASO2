@@ -78,11 +78,11 @@ public class Opcion1 {
         logSimulacion.append(msg).append("\n");
     }
 
-    private boolean terminado(int pid) {
+    private boolean procesoTerminado(int pid) {
         return dvActual[pid] >= direcciones.get(pid).size();
     }
 
-    private int buscarPagina(int pid, int pagina) {
+    private int buscarPaginaMemoria(int pid, int pagina) {
         return paginas.get(pid).indexOf(pagina);
     }
 
@@ -111,12 +111,12 @@ public class Opcion1 {
     public void simularTurnos() {
         ArrayList<Integer> cola = new ArrayList<>();
         for (int i = 0; i < numProcesos; i++) {
-            if (!terminado(i)) cola.add(i);
+            if (!procesoTerminado(i)) cola.add(i);
         }
 
         while (!cola.isEmpty()) {
             int pid = cola.remove(0);
-            if (terminado(pid)) continue;
+            if (procesoTerminado(pid)) continue;
 
             log("\nTurno proc: " + pid);
 
@@ -129,7 +129,7 @@ public class Opcion1 {
             actualizarContadores(pid);
             log("PROC " + pid + " envejecimiento aplicado");
 
-            int idx = buscarPagina(pid, pagina);
+            int idx = buscarPaginaMemoria(pid, pagina);
             if (idx != -1) {
                 // Hit
                 bitsR.get(pid).set(idx, true);
@@ -160,7 +160,7 @@ public class Opcion1 {
                 }
             }
 
-            if (!terminado(pid)) {
+            if (!procesoTerminado(pid)) {
                 cola.add(pid);
             } else {
                 log("Proceso " + pid + " ha terminado.");
