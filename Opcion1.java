@@ -5,6 +5,7 @@ public class Opcion1 {
 
     private int numProcesos;
     private int marcosTotales;
+    private int marcosPorProceso;
 
     // Datos de cada proceso
     private ArrayList<ArrayList<String>> direcciones;
@@ -26,6 +27,7 @@ public class Opcion1 {
     public Opcion1(int numProcesos, int marcosTotales) {
         this.numProcesos = numProcesos;
         this.marcosTotales = marcosTotales;
+        this.marcosPorProceso = marcosTotales / numProcesos;
 
         direcciones = new ArrayList<>();
         marcosAsignados = new int[numProcesos];
@@ -46,7 +48,6 @@ public class Opcion1 {
 
     // Cargar archivos
     private void cargarProcesos() {
-        int marcosPorProceso = marcosTotales / numProcesos;
         for (int i = 0; i < numProcesos; i++) {
             ArrayList<String> refs = new ArrayList<>();
             String nombreArchivo = "proc" + i + ".txt";
@@ -139,14 +140,14 @@ public class Opcion1 {
             } else {
                 // Fallo
                 fallosPagina[pid]++;
-                log("PROC " + pid + " FALLA de pagina " + pagina);
+                log("PROC " + pid + " FALLO de pagina " + pagina);
                 if (paginas.get(pid).size() < marcosAsignados[pid]) {
                     // Fallo sin reemplazo
                     paginas.get(pid).add(pagina);
                     contadores.get(pid).add(0);
                     bitsR.get(pid).add(true);
                     swapSinReemplazo[pid]++;
-                    log("PROC " + pid + " cargó pagina " + pagina + " en marco libre");
+                    log("PROC " + pid + " cargo pagina " + pagina + " en marco libre");
                     dvActual[pid]++;
                 } else {
                     // Fallo con reemplazo
