@@ -51,8 +51,6 @@ public class Opcion1 {
             ArrayList<String> refs = new ArrayList<>();
             String nombreArchivo = "proc" + i + ".txt";
             try (BufferedReader br = new BufferedReader(new FileReader(nombreArchivo))) {
-                String linea;
-                
                 for (int j = 0; j < 5; j++) {
                     br.readLine();
                 }
@@ -158,7 +156,7 @@ public class Opcion1 {
                     contadores.get(pid).set(victima, 0);
                     bitsR.get(pid).set(victima, true);
                     swapConReemplazo[pid]++;
-                    log("  Reemplazando pagina " + victimaPag + " por " + pagina );
+                    log("PROC " + pid + " reemplazo pagina " + victimaPag + " por " + pagina);
                 }
             }
 
@@ -187,6 +185,7 @@ public class Opcion1 {
         log("\n=== Simulacion finalizada ===");
         for (int i = 0; i < numProcesos; i++) {
             int totalRefs = (direcciones.get(i).size() > 0) ? direcciones.get(i).size() : 0;
+            // Un reemplazo son 2 accesos a SWAP (uno para sacar, otro para cargar)
             int totalSwaps = swapSinReemplazo[i] + (swapConReemplazo[i] * 2);
             double tasaFallas = (totalRefs == 0) ? 0 : (double) fallosPagina[i] / totalRefs;
             double tasaExito = (totalRefs == 0) ? 0 : (double) aciertos[i] / totalRefs;
