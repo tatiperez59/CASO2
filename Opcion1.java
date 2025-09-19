@@ -52,10 +52,11 @@ public class Opcion1 {
             String nombreArchivo = "proc" + i + ".txt";
             try (BufferedReader br = new BufferedReader(new FileReader(nombreArchivo))) {
                 String linea;
-                // Ignorar las primeras 5 líneas del encabezado
+                
                 for (int j = 0; j < 5; j++) {
                     br.readLine();
                 }
+                String linea;
                 while ((linea = br.readLine()) != null) {
                     refs.add(linea);
                 }
@@ -86,6 +87,7 @@ public class Opcion1 {
         return paginas.get(pid).indexOf(pagina);
     }
 
+    // Aplica el envejecimiento de las paginas para la politica LRU
     private void actualizarContadores(int pid) {
         for (int j = 0; j < paginas.get(pid).size(); j++) {
             int cont = contadores.get(pid).get(j);
@@ -118,7 +120,7 @@ public class Opcion1 {
             int pid = cola.remove(0);
             if (procesoTerminado(pid)) continue;
 
-            log("\nTurno proc: " + pid);
+            log("\n--- Turno para el Proceso " + pid + " ---");
 
             String dv = direcciones.get(pid).get(dvActual[pid]);
             log("PROC " + pid + " analizando linea_: " + dvActual[pid] + " -> " + dv);
@@ -156,7 +158,7 @@ public class Opcion1 {
                     contadores.get(pid).set(victima, 0);
                     bitsR.get(pid).set(victima, true);
                     swapConReemplazo[pid]++;
-                    log("PROC " + pid + " reemplazó pagina " + victimaPag + " por " + pagina);
+                    log("  Reemplazando pagina " + victimaPag + " por " + pagina );
                 }
             }
 
@@ -189,13 +191,13 @@ public class Opcion1 {
             double tasaFallas = (totalRefs == 0) ? 0 : (double) fallosPagina[i] / totalRefs;
             double tasaExito = (totalRefs == 0) ? 0 : (double) aciertos[i] / totalRefs;
 
-            log("\nProceso: " + i);
-            log("- Num referencias: " + totalRefs);
-            log("- Fallas: " + fallosPagina[i]);
-            log("- Hits: " + aciertos[i]);
-            log("- SWAP: " + totalSwaps);
-            log(String.format("- Tasa fallas: %.4f", tasaFallas));
-            log(String.format("- Tasa exito: %.4f", tasaExito));
+            log("\n--- Resultados del Proceso " + i + " ---");
+            log("- Total de referencias: " + totalRefs);
+            log("- Fallos de pagina: " + fallosPagina[i]);
+            log("- Aciertos: " + aciertos[i]);
+            log("- Accesos a SWAP: " + totalSwaps);
+            log(String.format("- Tasa de fallas: %.4f", tasaFallas));
+            log(String.format("- Tasa de exito: %.4f", tasaExito));
         }
 
         // Guardar salida
